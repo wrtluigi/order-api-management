@@ -36,6 +36,9 @@ node src/app.js
 | `PUT`    | `/order/:id`  | Atualizar pedido        | `200` / `500` |
 | `DELETE` | `/order/:id`  | Remover pedido          | `204` / `500` |
 
+### 🔖 Melhorias Futuras
+- Autenticação JWT
+
 ## 📕 Falando sobre a Arquitetura/API
 ```mermaid
 ---
@@ -63,9 +66,8 @@ flowchart TB
     Controller -- "**⑨** resposta em JSON + código de status" --> Client
 ```
 
-# 🔖 Melhorias Futuras
-- Autenticação JWT
 - Testes Automatizados
 - Deploy em Nuvem
+
 
 
