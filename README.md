@@ -38,7 +38,9 @@ node src/app.js
 
 ### 🔖 Melhorias Futuras
 - Autenticação JWT
-
+- Testes Automatizados
+- Deploy em Nuvem
+  
 ## 📕 Falando sobre a Arquitetura/API
 ```mermaid
 ---
@@ -66,8 +68,6 @@ flowchart TB
     Controller -- "**⑨** resposta em JSON + código de status" --> Client
 ```
 
-- Testes Automatizados
-- Deploy em Nuvem
 
 
 
