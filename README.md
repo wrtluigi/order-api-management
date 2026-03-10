@@ -63,4 +63,9 @@ flowchart TB
     Controller -- "**⑨** resposta em JSON + código de status" --> Client
 ```
 
+# 🔖 Melhorias Futuras
+- Autenticação JWT
+- Testes Automatizados
+- Deploy em Nuvem
+
 
