@@ -27,6 +27,14 @@ cp .env.example .env
 # 4. inicie a aplicação
 node src/app.js
 ```
+### 📒 Operações Base
+| Método   | URL           | Descrição               | Status        |
+| -------- | ------------- | ----------------------- | ------------- |
+| `POST`   | `/order`      | Criar pedido            | `201` / `500` |
+| `GET`    | `/order/:id`  | Buscar pedido por ID    | `200` / `500` |
+| `GET`    | `/order/list` | Listar todos os pedidos | `200` / `500` |
+| `PUT`    | `/order/:id`  | Atualizar pedido        | `200` / `500` |
+| `DELETE` | `/order/:id`  | Remover pedido          | `204` / `500` |
 
 ## 📕 Falando sobre a Arquitetura/API
 ```mermaid
@@ -54,4 +62,5 @@ flowchart TB
     Model -- "**⑧** dados retornados conforme modelo" --> Controller
     Controller -- "**⑨** resposta em JSON + código de status" --> Client
 ```
+
 
